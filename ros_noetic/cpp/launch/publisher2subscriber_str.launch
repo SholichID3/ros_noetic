@@ -1,0 +1,4 @@
+<launch>
+  <node name="publisher_str" pkg="cpp" type="publisher_str" output="screen"/>
+  <node name="subscriber_str" pkg="cpp" type="subscriber_str" output="screen"/>
+</launch>

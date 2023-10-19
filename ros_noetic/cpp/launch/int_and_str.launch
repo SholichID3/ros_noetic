@@ -1,0 +1,4 @@
+<launch>
+   <include file="$(find cpp)/launch/publisher_subscriber_int.launch"/>
+   <include file="$(find cpp)/launch/publisher_subscriber_str.launch"/>
+</launch>
